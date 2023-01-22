@@ -161,7 +161,9 @@ if(sum>=7)
      emails.value="";
      pass.value="";
      conpass.value="";
-     location.replace('/new.html');
+     //location.replace('/new.html');
+ window.location.href = "new.html";
+
 }
 else{
     lastmsg.innerHTML=`not ready`;
